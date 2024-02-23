@@ -150,11 +150,7 @@ margin:auto;
 
 aside{
 background-image: linear-gradient(to left, var(--cor1), white); 
-margin:auto;
-box-
-transition: background-color 2s; 
-padding:1px;
-}
+margin:auto;}
 .botao:hover {shadow:3px 2px 1px black;
 margin-top-bottom: 0px;
 }
