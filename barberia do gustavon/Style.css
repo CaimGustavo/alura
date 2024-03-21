@@ -1,0 +1,245 @@
+
+
+*{
+margin:0;  
+padding:0; 
+
+}
+a{
+color:#fff;  
+text-decoration:none; 
+transition: 0.3;
+}
+a:hover{
+opacity:0.7;
+}
+.logo{
+font-size:2em;
+text-transform:uppercase;
+letter-spacing:4px;
+  
+}
+#div_horas{
+border:3px solid #616180; 
+background-color: #23232e; 
+text-align: center;
+color:#c2bdfd;
+}
+input{
+background-color: #23232e;
+border: 0.1vh solid #616180;
+color:white;
+margin-top:150vh;
+width: 93vw;
+margin:auto;
+height: 3vh;
+font:normal bolder 1.8vh arial;
+}
+
+#senha{margin-top:3vh;}
+#nome{margin-top:3vh;}
+#gmail{margin-top:3vh;}
+#senhadois{margin-top:3vh;}
+
+
+button{
+background-color: #23232e;
+position: absolute;
+width: 20vw;
+color:#c0c0c0;
+border:0.1vh solid #616180;
+padding:0.1vh;
+margin-top:5vh;
+border-radius: 1vhpx;
+height:4vh;
+font:normal bolder 1.8vh arial;
+}
+
+nav{
+display:flex;
+justify-content:space;
+align-items: center;
+font-family:Arial;
+background-color:#23232e;
+height:12vh;
+}
+main{
+background: url("photo-1707382847896-1311b0498133.jpeg") no-repeat center center;
+background-size:cover;
+height:83vh;
+
+}
+.list{
+font: normal normal 1.8vh arial;  
+  
+}
+#nav-list{
+list-style: none;  
+display: flex;
+color:white;
+
+}
+#nav-list li{
+letter-spacing: 3px;  
+margin-left:32px;
+font:normal normal 1vh arial sans-serif;
+}
+
+.mobile-menu{
+cursor:pointer; display: none;
+}
+
+p#X{
+font:normal bolder 3em arial; 
+display:none; 
+}
+.mobile-menu div{
+width: 32px;  
+height:2px;
+background-color:#fff;
+margin: 8px;
+}
+
+footer{
+background-color:#23232e ;  
+text-align: center; 
+font:italic bolder 2em sans-serif;
+color:white;
+height: 5.1vh;
+}
+
+@media (max-width:1100px){
+body{
+overflow-x:hidden;!important
+}  
+ 
+.wit{
+width: 50vh; 
+}
+#formm{}
+.imagem2{
+height: 20vh;
+width: 100vw;
+margin:auto;
+margin-top:15vh; 
+position: absolute;
+z-index: 10;
+
+}
+
+
+input{
+background-color: #23232e;
+border:3px solid #616180;
+color:white;
+padding: 10px;
+margin-top:15px;
+width: 93vw;
+margin:auto;
+margin-bottom: 15px;
+}
+#senha{margin-top:3vh;}
+#nome{margin-top:3vh;}
+#gmail{margin-top:3vh;}
+#senhadois{margin-top:3vh;}
+button{
+background-color: #23232e;
+width: 20vw;
+color:#c0c0c0;
+border:3px solid #616180;
+margin-top:20vh;
+border-radius: 5px;
+height:4vh;
+transform: translatex(-500%);
+
+}
+
+#login{
+margin-top:15vh;
+margin-left:13vh;
+}
+#registrar{
+margin-top:14.9vh; 
+  
+}
+img{
+width:50vw;
+position: relative;
+}
+#nav-list{
+position:absolute;  
+display: none;
+top:10vh;
+right:0;
+width:50vw;
+height:80vh;
+background-color:#23232e;!important
+flex-direction: column;
+align-items:center;
+justify-content:space;
+color:white;
+transform: translatex(0);
+z-index:20;
+}
+#nav-list li{
+margin-left:0;
+text-align: center;
+padding: 70px;
+}
+.mobile-menu{
+display: block;
+margin-left:140px;
+}
+  
+}
+.active{
+  width: 50vh;
+transition: all 0.9s;
+animation: float 1.3s ease-in-out;
+display:block;
+
+}
+
+
+
+@media (min-width:1201px){
+nav{
+display:flex;
+justify-content:space;
+align-items: center;
+font-family:Arial;
+background-color:#23232e;
+height:18vh;
+
+} 
+button{
+background-color: #23232e;
+position: absolute;
+width: 20vw;
+color:#c0c0c0;
+border:0.1vh solid #616180;
+padding:0vh;
+margin-top:12vh;
+border-radius: 1vhpx;
+height:4vh;
+font:normal bolder 1.8vh arial;
+transform: translatex(-300%);
+}  
+#nav-list{
+font:normal bolder 1vh arial;
+} 
+
+#login{
+margin-left:30vw; 
+img{
+width: 40vw;  
+  
+  
+} 
+}
+
+  
+}
+  
+  
+
