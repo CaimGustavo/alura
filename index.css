@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+/*mobile first*/
+*{
+ padding: 0; 
+ margin: 0;
+ box-sizing:border-box;
+ border: none;
+ resize: none;
+}
+html{
+overflow-x:hidden;
+}
+header{
+height: 20vh; 
+background-color: #ffffff; 
+color:white;
+display: flex;
+justify-content: space-around;
+}
+main{
+z-index:0;
+height: 150vh;
+background-color: white;
+color:black;
+font:normal normal 1em arial, sans-sarif;
+}
+footer{
+margin-top:500px;
+height: 5vh;
+width:100vw ;
+background-color: black;
+color:white;
+text-align: center;
+font:normal bolder 1em arial, sans-sarif;
+}
+li,h1,h2,h3{
+padding:5px; 
+margin:3px;
+}
+strong{
+color:green;
+}
+#logo{
+width:160px;
+}
+/*esse codigo ta muito ruim ja é*/
+#menu{
+width: 30px;
+border: 3px solid #ffffff;
+border-radius:50%;
+margin-left:80px;
+margin-bottom: 50px;
+}
+#area_pes{
+border: .9px solid white;  
+position: relative;
+background-color:black;
+
+}
+#pesquisar{
+width:330px;
+height: 5vh;
+resize: none;
+color:white;
+background-color:black;
+}
+#pes_btn{
+background-color: black;
+width: 30px;
+color:white;
+}
+.redes,.forma{
+  margin-top: 20px;
+width: 50px;
+margin:10px;  
+}
+#redes{
+margin-left:10px ; 
+transition: all 0.5s;
+
+}
+  
+
+.redes:hover{
+border: 3px solid black;
+margin-bottom: 10px;
+border-radius: 50%;  
+}
+#enviar:hover{
+background-color: black;
+color:white;  
+}
+
+.html{
+opacity: 0; 
+filter:blur(15px);
+transition: all 1s;
+transform:  translateX(-100%);
+}
+.visil{
+  opacity: 1;
+  filter:blur(0px);
+  transition: all 1s;
+  transform: translateX(0);
+}
+.nav-list{
+transform: translateX(100%);
+display: block;
+text-decoration: none;
+list-style: none;
+position: absolute;
+top:8vh;
+right:0;
+width:60vw;
+height: 85vh;
+background: black;
+flex-direction: column;
+align-items: center;
+justify-content:space-around;
+transition: transform 0.3s ease-in;
+z-index:1;
+  
+}
+.nav-list li{
+margin-left:0;
+margin-top:9vh;
+text-align:center ;
+opacity: 0;
+}
+.nav-list.active{
+ transform: translateX(0); 
+}
+a{
+color:white;  
+transition: all 0.3s;
+text-decoration: none;
+}
+a:hover{
+opacity: 0.7;  
+  
+}
+mobile-menu{
+cursor: pointer;
+display: block;
+position:absolute;
+margin:400px;
+}
+.mobile-menu div{
+width: 32px;  
+height: 2px;
+background-color: black;
+margin:8px;
+}
+@keyframes navLinkFade{
+ from{
+opacity: 0;  
+transform: translateX(50px);
+ }
+to{
+opacity: 1;
+transform: translateX(0);
+}  
+}
+/*table*/
+@media (min-width: 800px){
+
+.mobile-menu{
+display: none;  
+}
+.nav-list{
+display: block;
+color:black;
+text-decoration: none;
+list-style: none;
+position: absolute;
+width:20vw;
+height: 85vh;
+z-index:1;
+  
+}
+
+
+.nav-list li{
+transform: translateX(0);
+text-align:center ;
+opacity: 1;}
+#logo{
+width: 20vw;
+}
+h1,h2,h3,h4,p{
+font: normal bolder 3vw arial sans-sarif;  
+  
+}
+li{
+font: normal normal 3vw arial sans-sarif; }
+#area_pes{
+position: relative;
+background-color:black;
+
+}
+#pesquisar{
+width:40vh;
+height: 5vh;
+resize: none;
+color:white;
+background-color:black;
+}
+#pes_btn{
+background-color: black;
+width: 4vw;
+color:white;
+}
+  
+}
+.redes,.forma{
+width: 10vw;
+margin-top:2vw;
+margin:4vw;
+}  
+}
+/*PC*/
+@media (min-width: 1024px){
+
+
+
+}
